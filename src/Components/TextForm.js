@@ -18,7 +18,7 @@ export default function texthtmlForm(props) {
     props.showAlert("Text copied", "success");
   };
   const handleClearClick = () => {
-    let newText = " ";
+    let newText = "";
     setText(newText);
     props.showAlert("Cleared input text", "success");
   };
